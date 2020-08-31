@@ -1,0 +1,631 @@
+/* testing start */
+.my-container{
+  border: 3px solid green;
+}
+
+.my-row{
+  border: 3px solid red;
+}
+
+.my-col{
+  border: 3px dotted blue;
+}
+/* testing end */
+
+/* text formatting start */
+h1 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 76px;
+
+  color: #000000;
+}
+
+p {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+li {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* NOT USED */
+th {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+  color: #009dff;
+}
+
+.intro{
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.link {
+  text-decoration: none;
+  background-image: linear-gradient(#009dff, #009dff);
+  color: ####1F8FFF;
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: 100% 2px;
+  transition: background-size .6s, background-position .25s ease-in .25s;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: white;
+  background-size: 100% 100%;
+  background-position: 0% 0%;
+  transition: color 0.6s, background-position .25s, background-size .25s ease-in .25s;
+}
+
+.blue{
+  color: ###1F8FFF;
+}
+
+/* text formatting end */
+
+.navbar-nav > li{
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color:  ###1F8FFF;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(101,31,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.centerbot {
+  margin: 0;
+  position: absolute;
+  bottom: 10vh;
+  left: 50%;
+}
+
+/* card css start */
+.my-col-trans{
+  border: 1px dotted transparent;
+}
+
+.mainpill{
+  background-color: white;
+  border: none;
+  color: #009dff;
+  padding: 6px 12px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 3px;
+  border-radius: 8px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.secondarypill{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 6px 12px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 3px;
+  border-radius: 8px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+
+}
+
+.bgclr{
+  background: #F9F9F9;
+}
+
+.hovercard{
+  transition: 0.2s;
+}
+
+.hovercard:hover{
+  transition: 0.4s;
+  background: #e5f5ff;
+}
+
+.mobile{
+   width:0px;
+   height:0px;
+}
+
+.notmobile{
+}
+
+.first{
+  margin-left: 0px;
+}
+
+.last{
+  margin-right: 0px;
+}
+
+.marg{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* card css end */
+
+.spacer{
+  height: 15vh;
+}
+
+.nodec{
+  text-decoration: none;
+}
+
+.margins{
+  margin-bottom: 16px;
+}
+
+.ani:before{
+  content: '';
+  animation: animate5 infinite 12s;
+}
+
+@keyframes animate5 {
+  0%{
+    content: 'iKnow[1024] = "C"';
+  }
+
+  20%{
+    content: 'String i_Know = "C++";';
+  }
+
+  40%{
+    content: 'iKnow = "Python"';
+  }
+
+  60%{
+    content: 'String iKnow[] = new String {"J", "A", "V", "A"};';
+  }
+
+  80%{
+    content: 'iSpeak more Computer than English ;)';
+  }
+}
+
+.pad{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.padfirst{
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.socialcolor{
+  color: #616161;
+}
+
+.timeline {
+  position: relative;
+  list-style-type: none;
+  height: 100%;
+}
+
+.timeline:before {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  content: ' ';
+  display: block;
+  width: 6px;
+  height: 100%;
+  background: ###1F8FFF;
+  z-index: 5;
+}
+
+.direction-r {
+  position: relative;
+  float: left;
+  left:-5.7px;
+}
+
+.flag-wrapper {
+  position: relative;
+  display: inline-block;
+
+  text-align: left;
+}
+
+.direction-r .flag:before {
+  position: absolute;
+  top: 50%;
+  right:0%;
+  content: ' ';
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin-top: -10px;
+  background: #ffff;
+  border-radius: 12px;
+  border: 5px solid  ###1F8FFF;
+  z-index: 10;
+}
+
+.direction-r .flag:before {
+  left: -40px;
+}
+
+.titlefonts{
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.spacersmall{
+  margin-bottom: 60px;
+}
+
+.largecardmarg{
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.smallcardmarg{
+  margin: 2vw;
+}
+
+.mainpillsm{
+  background-color: white;
+  border: none;
+  color: ###1F8FFF;
+  padding: 4px 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 3px;
+  border-radius: 8px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.secondarypillsm{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 4px 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 3px;
+  border-radius: 8px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+
+}
+
+.psm {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.h1sm {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #000000;
+}
+
+.cardmaxheight{
+   max-height: 531px;
+}
+
+.spacerlarge{
+  height:48px;
+}
+
+.spacersm{
+  height:24px;
+}
+
+.spacing{
+  margin: 0px;
+  padding: 0px;
+}
+
+.desktopwebsite{
+  width:100%;
+  max-width: 1116px;
+  max-height: 620px;
+  height:38vw;
+  width:66vw;
+  border-radius: 8px;
+  border: 4px solid #616161;
+  overflow:scroll;
+}
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: absolute;
+  left:50%;
+  margin-left: -20px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid #B3B5B9;
+  background-size: 14px auto;
+  border-radius: 5%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: calc(50% - 7px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 14px;
+    height: 14px;
+    content: "";
+    border: 4px solid #B3B5B9;
+    border-width: 0px 0 3px 3px;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+/* //mobile changes */
+@media (min-width: 0px) and (max-width: 768px) {
+   .intro{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* text-align: right; */
+    color: #000000;
+  }
+
+  p {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #000000;
+  }
+
+  h1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #000000;
+  }
+
+  .mainpill{
+    background-color: white;
+    border: none;
+    color: #009dff;
+    padding: 4px 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 3px;
+    border-radius: 8px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .secondarypill{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 4px 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 3px;
+    border-radius: 8px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+
+  }
+
+  .titlefonts{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  .maxlen{
+    width:100%;
+  }
+
+  .mobile{
+    width:100%;
+    height:auto;
+  }
+
+  .notmobile{
+    width:0px;
+    height:0px;
+  }
+
+  .mobilespacer{
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .mobilespacertop{
+    margin-top: 20px;
+    margin-bottom: 36px;
+  }
+
+  .gone{
+    height:0px;
+  }
+
+  .mobilediv{
+    height: 24px;
+  }
+
+  .center {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -90%);
+    transform: translate(-50%, -90%);
+  }
+
+  .centerbot {
+    visibility: hidden;
+  }
+
+  .pad{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .padfirst{
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  .padlast{
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
+  .largecardmarg{
+    margin: 4vw;
+  }
+
+  .smallcardmarg{
+    margin: 4vw;
+  }
+
+  .cardmaxheight{
+    max-height: none;
+  }
+
+  .spacersm{
+    height:24px;
+  }
+
+  .spacerlarge{
+    height:24px;
+  }
+
+  .menuheight{
+    min-height: 0vh;
+  }
+
+  .steghide{
+    background-color: #222C31;
+  }
+
+  .planty{
+    background-color: #FFFFFF;
+  }
+
+  .largecard{
+    min-height: 0vh;
+  }
+
+  .desktopwebsite{
+    width:100%;
+    max-width: 1116px;
+    height:200vw;
+    width:80vw;
+    border-radius: 8px;
+    border: 4px solid #616161;
+    overflow:scroll;
+  }
+
+
+}
+
